@@ -1,0 +1,61 @@
+* {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --black: #363636;
+    --blue: #a7e0f3;
+}
+
+header {
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin-left: 50px;
+    margin-left: 0;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--blue);
+    padding: 10px 10px 10px 50px;
+    font-size: xxx-large;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+    color: var(--blue);
+}
+
+header ul a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+header ul a li {
+    margin: 15px;
+    border-bottom: 2px solid var(--blue);
+    font-size: x-large;
+}
+
+.hero {
+    display: flex;
+    background-image: url(../images/striped-bg-2.jpg);
+    background-size: cover;
+    justify-content: flex-end;
+}
+
+.hero h2 {
+    font-size: xx-large;
+    margin-top: 10%;
+    color: var(--black);
+    background-color: var(--blue);
+    padding: 10px;
+    margin-right:50px;
+
+}
