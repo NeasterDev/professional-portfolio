@@ -59,3 +59,27 @@ header ul a li {
     margin-right:50px;
 
 }
+
+.sections {
+    background-color: #dbf8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section {
+    display: inline-flex;
+
+}
+
+.section div {
+    margin: 20px;
+    padding: 20px;
+    border-left: 3px solid var(--black);
+}
+
+.big-title {
+    font-size: xxx-large;
+    color: var(--black);
+    margin-left: 100px;
+}
