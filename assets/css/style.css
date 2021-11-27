@@ -68,24 +68,60 @@ header ul a li {
 
 .section {
     display: flex;
-
 }
 
-
+/* style for headers for each section */
 .big-title {
     font-size: xxx-large;
     color: var(--black);
-    border: 3px solid var(--black);
     flex: 1;
 }
 
-.border-left {
-    border: 3px solid var(--black);
-    flex: 2;
+.big-title h3 {
+    float: right;
+    margin-right: 5%;
 }
 
-#main-project {
-    margin: 0 auto;
-    width:75%;
-    height:100%;
+/* content box with left side border */
+.border-left {
+    border-left: 3px solid var(--black);
+    margin: 20px 0;
+    flex: 3;
 }
+
+.border-left p {
+    margin: 5% 1%;
+}
+
+.border-left div {
+    display: flex;
+    justify-content: center;
+}
+
+.border-left .projects {
+
+}
+
+.border-left .projects img {
+    width: 39.6%;
+    border: 3px solid blue;
+    margin: 10px;
+    opacity: 0.5;
+}
+.border-left .projects img:hover {
+    opacity: 1;
+}
+
+#big-img {
+    width: 81%;
+    border: 3px solid blue;
+    opacity: 0.5;
+}
+
+#big-img:hover {
+    opacity: 1;
+}
+
+
+
+
