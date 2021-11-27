@@ -1,10 +1,10 @@
 * {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/* old blue #a7e0f3 */
 :root {
     --black: #363636;
-    --blue: #a7e0f3;
+    --blue: #dbf8ff;
 }
 
 header {
@@ -64,22 +64,28 @@ header ul a li {
     background-color: #dbf8ff;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
 }
 
 .section {
-    display: inline-flex;
+    display: flex;
 
 }
 
-.section div {
-    margin: 20px;
-    padding: 20px;
-    border-left: 3px solid var(--black);
-}
 
 .big-title {
     font-size: xxx-large;
     color: var(--black);
-    margin-left: 100px;
+    border: 3px solid var(--black);
+    flex: 1;
+}
+
+.border-left {
+    border: 3px solid var(--black);
+    flex: 2;
+}
+
+#main-project {
+    margin: 0 auto;
+    width:75%;
+    height:100%;
 }
