@@ -93,27 +93,26 @@ header ul a li {
     margin: 5% 1%;
 }
 
-.border-left div {
+/* contatiners for links to projects */
+.border-left div, .border-left div a {
     display: flex;
     justify-content: center;
 }
 
-.border-left .projects {
-
+.border-left .projects  {
 }
 
-.border-left .projects img {
-    width: 39.6%;
+.border-left .projects a img {
     border: 3px solid blue;
     margin: 10px;
     opacity: 0.5;
 }
-.border-left .projects img:hover {
+.border-left .projects a img:hover {
     opacity: 1;
 }
 
 #big-img {
-    width: 81%;
+    width: 65%;
     border: 3px solid blue;
     opacity: 0.5;
 }
@@ -123,5 +122,22 @@ header ul a li {
 }
 
 
+@media screen and (max-width:1300px) {
+    .border-left div, .border-left div a {
+        flex-direction: column;
+    }
 
+    .border-left .projects div a img{
+        margin-left: 20px;
+    }
+
+    .border-left .projects {
+        width: 100%;
+    }
+
+    #big-img {
+       width: 100%;
+       margin: 20px;
+    }
+}
 
