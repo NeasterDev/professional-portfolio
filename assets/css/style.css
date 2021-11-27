@@ -99,9 +99,6 @@ header ul a li {
     justify-content: center;
 }
 
-.border-left .projects  {
-}
-
 .border-left .projects a img {
     border: 3px solid blue;
     margin: 10px;
@@ -109,6 +106,39 @@ header ul a li {
 }
 .border-left .projects a img:hover {
     opacity: 1;
+}
+
+.border-left nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.border-left nav ul {
+    display: flex;
+    list-style: none;
+    flex: 3;
+}
+
+.border-left nav ul a {
+    text-decoration: none;
+}
+
+.border-left nav ul li {
+    font-size: xx-large;
+    margin-right: 15px;
+    border-bottom: 4px solid var(--black);
+    color: var(--black);
+    
+}
+
+.container {
+    position: relative;
+}
+
+.img-title {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 
 #big-img {
@@ -122,7 +152,7 @@ header ul a li {
 }
 
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1400px) {
     .border-left div, .border-left div a {
         flex-direction: column;
     }
@@ -139,5 +169,24 @@ header ul a li {
        width: 100%;
        margin: 20px;
     }
+
+    .border-left nav ul {
+        flex-wrap: wrap;
+    }
+
+    .border-left nav ul li {
+        font-size: x-large;
+        margin-bottom: 15px;
+    }
+
+    header nav ul {
+        flex-wrap: wrap;
+    }
+
+    header nav ul li {
+        font-size: x-large;
+        margin-bottom: 15px;
+    }
+
 }
 
